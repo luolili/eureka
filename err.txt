@@ -2,7 +2,7 @@
 1. 项目启动，出现链接被拒绝； Cannot execute request on any known server
 
 配置注册的serviceUrl
-  
+
 2. 2个eureka 服务端互相注册：
 实现高可用：防止一个注册中心挂了
 点击Edit configuration
