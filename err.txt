@@ -1,6 +1,7 @@
  这个项目是：注册中心，一张白纸：server端;注解：@EnableEurekaServer
 1. 项目启动，出现链接被拒绝； Cannot execute request on any known server
 
+
 配置注册的serviceUrl
 
 2. 2个eureka 服务端互相注册：
