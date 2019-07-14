@@ -1,7 +1,7 @@
  这个项目是：注册中心，一张白纸：server端;注解：@EnableEurekaServer
 1. 项目启动，出现链接被拒绝； Cannot execute request on any known server
 
-
+.
 配置注册的serviceUrl
 
 2. 2个eureka 服务端互相注册：
@@ -13,7 +13,6 @@ copy配置：
 一个配置为： -Dserver.port=8762
 先启动Eureka01，再启动先启动Eureka02: 发现在02上client也注册了：虽然client只在01上注册了，他会把信息同步
 到另一个注册中心。
-
 
 ------处理不同的语言和数据库之间的差异：微服务：异构
 

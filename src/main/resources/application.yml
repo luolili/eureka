@@ -1,14 +1,14 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8762/eureka/
-      #他本身就是个注册中心，所以不用eureka作为注册中心
-    register-with-eureka: false
-  server:
-    enable-self-preservation: false
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8762/eureka/
+#      #他本身就是个注册中心，所以不用eureka作为注册中心
+#    register-with-eureka: false
+#  server:
+#    enable-self-preservation: false
 # 应用的名字
 spring:
   application:
     name: eureka
-#server:
-#  port: 8761
+server:
+  port: 8761
